@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reporte de Productos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+
+    <div class="report-container">
+        <div class="header-report">
+            <h2>📦 Inventario</h2>
+            <a href="index.html" class="btn-back">
+                <i class="fa-solid fa-plus"></i> Nuevo
+            </a>
+        </div>
+
+        <div id="reporteData" class="grid-productos">
+            </div>
+        
+        <div id="mensajeVacio" class="hidden empty-state">
+            <i class="fa-regular fa-folder-open"></i>
+            <p>No hay productos registrados.</p>
+        </div>
+    </div>
+
+    <script src="reporte.js"></script>
+</body>
+</html>
